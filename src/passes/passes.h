@@ -47,6 +47,7 @@ Pass* createFlattenPass();
 Pass* createFuncCastEmulationPass();
 Pass* createFullPrinterPass();
 Pass* createFunctionMetricsPass();
+Pass* createGenerateDynCallsPass();
 Pass* createGenerateStackIRPass();
 Pass* createI64ToI32LoweringPass();
 Pass* createInlineMainPass();
